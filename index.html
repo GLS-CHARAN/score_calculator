@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="small-child">
+                <div class="home">
+                    <h1 class="header">HOME</h1>
+                    <h1 class="score" id="home-score-el">0</h1>
+                    <div class="btns">
+                        <button class="btn" id="homeOne" onclick="homeOne()">+1</button>
+                        <button class="btn" id="homeTwo" onclick="homeTwo()">+2</button>
+                        <button class="btn" id="homeThree" onclick="homeThree()">+3</button>
+                    </div>
+                </div>
+                <div class="guest">
+                    <h1 class="header">GUEST</h1>
+                    <h1 class="score" id="guest-score-el">0</h1>
+                    <div class="btns">
+                        <button class="btn" id="guestOne" onclick="guestOne()">+1</button>
+                        <button class="btn" id="guestTwo" onclick="guestTwo()">+2</button>
+                        <button class="btn" id="guestThree" onclick="guestThree()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="newgame-btn" onclick="newgame()">new-game</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
